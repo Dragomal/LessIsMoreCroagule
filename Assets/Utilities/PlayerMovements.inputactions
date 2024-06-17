@@ -1,0 +1,34 @@
+{
+    "name": "PlayerMovements",
+    "maps": [
+        {
+            "name": "Move",
+            "id": "92655a1d-0b6b-4ffb-b2da-0f27a5439f67",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "bf38c7c5-dcbc-4ede-bcce-1ea8848fbf55",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.25,behavior=2)",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3c3ff7f0-3267-4d4b-99a7-881e383d68c7",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
